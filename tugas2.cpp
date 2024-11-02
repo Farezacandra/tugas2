@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     string Nama[10];
     float Komisi[10],Penjualan[10],TotalKomisi=0;
-    int i,JmlhSales=2;
+    int i,JmlhSales=10;
 
     cout << "Input Penjualan Sales" << endl;
     cout << setprecision(12);
