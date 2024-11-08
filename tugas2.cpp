@@ -13,15 +13,15 @@ int main() {
     for (i = 0; i < JmlhSales; i++) {
         cout << "Data Salesman ke -" << i + 1 << endl;
         cout << "Masukan Nama Salesman : ";
-        cin >> Nama[i];
+        cin >> Nama;
         cout << "Penjualan Salesman : ";
-        cin >> Penjualan[i];
+        cin >> Penjualan;
     cout << "========================================="<<endl;    
-        if(Penjualan[i] < 500000){
-        	Komisi[i] = Penjualan[i] * 0.1;
+        if(Penjualan < 500000){
+        	Komisi = Penjualan[i] * 0.1;
 		}else{
-			Komisi[i] = 500000 * 0.1;
-            Komisi[i] += (Penjualan[i] - 500000) * 0.15;
+			Komisi = 500000 * 0.1;
+            Komisi[i] += (Penjualan - 500000) * 0.15;
              cout<<endl<<"-------------------------------------"<<endl<<endl;
 		}
 			TotalKomisi += Komisi[i];
